@@ -38,5 +38,10 @@ namespace Lab3_OneArmedBandit
         /// <summary>
         /// Constructor for assigning class property _name in the case of no UserInput
         /// </summary>
+        public Person()
+        {
+            SetName("ManwithNoName");
+            wallet = new Wallet();
+        }
     }
 }
