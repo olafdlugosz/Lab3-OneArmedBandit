@@ -12,12 +12,12 @@ namespace Lab3_OneArmedBandit
         private const int ROWS = 3;
         private const int COLS = 3;
 
-        //private string GamePiece;
+
         public string[,] Matrix { get; private set; }
         public double Multiplier { get; private set; }
         public double Winnings { get; private set; }
         public string GamePiece { get; private set; }
-        //private int Bet;
+
 
         public GameBoard(int Bet)
         {
@@ -26,7 +26,6 @@ namespace Lab3_OneArmedBandit
             var multiplier = GetMultiplier(matrix);;
             var winnings = GetWinnings(multiplier, Bet);
 
-            // update public properties
             GamePiece = gamePiece;
             Matrix = matrix;
             Multiplier = multiplier;
