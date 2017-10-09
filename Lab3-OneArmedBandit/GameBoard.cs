@@ -86,7 +86,7 @@ namespace Lab3_OneArmedBandit
             double multiplier = 0;
 
             List<string> rowValue = new List<string>();   //The for loop and if statements will check if Rows match, 
-            for (int i = 0; i < 3; i++)                   //then throw gamePiece into rowValue list which the foreach loops through
+            for (int i = 0; i < ROWS; i++)                   //then throw gamePiece into rowValue list which the foreach loops through
                                                           //to find and increment multiplayer.
             {
                     if (matrix[i,0] == matrix[i, 1] && matrix[i, 1] == matrix[i, 2])
