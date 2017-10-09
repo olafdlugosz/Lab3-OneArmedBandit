@@ -7,6 +7,46 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label x:Name="Element00" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="38"/>
+        <Label x:Name="Element01" Content="" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.654,-1.768"/>
+        <Label x:Name="Element02" Content="" HorizontalAlignment="Left" Margin="82,-1,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.772"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="Element10" Content="" HorizontalAlignment="Left" Margin="0,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Element11" Content="" HorizontalAlignment="Left" Margin="45,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Element12" Content="" HorizontalAlignment="Left" Margin="83,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Element20" Content="" HorizontalAlignment="Left" Margin="0,57,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Element21" Content="" HorizontalAlignment="Left" Margin="45,57,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Element22" Content="" HorizontalAlignment="Left" Margin="83,57,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="DisplayGameBoard" Content="PULL LEVER!" HorizontalAlignment="Left" Margin="164,217,0,0" VerticalAlignment="Top" Width="100" Click="DisplayGameBoard_Click" Height="40" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="CreditLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="164,157,0,0" Height="42" Width="100" Background="#FFDCA2A2"/>
+        <TextBox x:Name="CreditTextBox" HorizontalAlignment="Left" Height="23" Margin="370,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FF91BAE2"/>
+        <TextBox x:Name="BetTextBox" HorizontalAlignment="Left" Height="23" Margin="370,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FF7CD35C"/>
+        <Button x:Name="SaveContent" Content="Save" HorizontalAlignment="Left" Margin="377,253,0,0" VerticalAlignment="Top" Width="75" Click="SaveContent_Click"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="370,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Credit:" HorizontalAlignment="Left" Margin="325,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Your Bet:" HorizontalAlignment="Left" Margin="313,141,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="326,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Type in your name. &#xD;&#xA;Put in your Credit,&#xD;&#xA;then Save." HorizontalAlignment="Left" Margin="353,188,0,0" VerticalAlignment="Top" Height="60" Width="137"/>
+        <Label Content="YOUR MONEY! -&gt;" HorizontalAlignment="Left" Margin="31,170,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" Width="128">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.319"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.353"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="MultiplierLabel" Content="" HorizontalAlignment="Left" Margin="193,123,0,0" VerticalAlignment="Top" Width="38" Background="#FFE3F37C"/>
+        <Label Content="Multiplier! -&gt;" HorizontalAlignment="Left" Margin="84,119,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="30" Width="104"/>
+        <Label x:Name="NameLabel" Content="" HorizontalAlignment="Left" Margin="164,30,0,0" VerticalAlignment="Top" Background="#FF34EAEA" Width="100" FontWeight="Bold"/>
     </Grid>
 </Window>
